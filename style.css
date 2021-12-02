@@ -179,9 +179,11 @@ h6 {
   gap: 20px;
 }
 
-/* .news_img{
-
-} */
+.news_img{
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
 .news_text {
   display: flex;
   flex-direction: column;
