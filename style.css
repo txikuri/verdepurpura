@@ -457,7 +457,11 @@ min-height: 250px;
   border-top: 3px solid var(--clr-secundario-oscuro);
   display: flex;
   justify-content: space-between;
-  margin: 30px 60px;
+  margin: auto;
+}
+
+.footer h3{
+  line-height: 1.7;
 }
 
 /* Esto es desktop */
