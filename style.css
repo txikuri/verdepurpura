@@ -113,6 +113,7 @@ h6 {
   border-top: 3px solid var(--clr-secundario-oscuro);
   border-left: none;
   border-right: none;
+  background:none;
 }
 
 .carrousel > * {
@@ -457,7 +458,7 @@ min-height: 250px;
   border-top: 3px solid var(--clr-secundario-oscuro);
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  width: auto;
 }
 
 .footer h3{
@@ -550,7 +551,8 @@ min-height: 250px;
 }
 
 .carrousel{
-  background:"https://res.cloudinary.com/dchxehkoi/image/upload/v1638213260/portafolio_fdr_P%C3%A1gina_04_jbcoik.jpg";
+  background-image: url("https://res.cloudinary.com/dchxehkoi/image/upload/v1638213260/portafolio_fdr_P%C3%A1gina_04_jbcoik.jpg");
+  background-size:cover;
 }
 
 .carrusel-nav {
