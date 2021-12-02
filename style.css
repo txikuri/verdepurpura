@@ -527,6 +527,7 @@ min-height: 250px;
   }
   .carrousel__titulo h2{
     font-size: 30px;
+    color:#f9f9f9;
   }
   .carrousel__titulo button {
     border-radius: 50px;
