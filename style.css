@@ -459,6 +459,7 @@ min-height: 250px;
   display: flex;
   justify-content: space-between;
   width: auto;
+  padding: 30px 60px;
 }
 
 .footer h3{
@@ -578,5 +579,19 @@ min-height: 250px;
 
 .contacto{
   display:none;
+}
+
+.footer{
+  flex-direction: column;
+}
+
+.footer h3{
+  line-height: 1.7;
+  font-size: 12px;;
+}
+
+.footer h4{
+  line-height: 1.7;
+  font-size:10px;
 }
 }
